@@ -82,7 +82,6 @@ def parameters_entry(infection_entry, removed_entry): #extracts user inputs of i
     return R
  
 def initial_conditions_entry(a,b,c,d,e,f): #extracts user inputs of infection and removing rates
-    print("this is functions initial conditions entry")
     C=[0,0,0]
     T=[0,0,0]
     while True:
