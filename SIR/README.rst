@@ -28,6 +28,12 @@ Activation:
 
 To open the interface:
 
+* need to make sure .py files are correctly added to the virtual environment:
+
+(SIR) $ open /anaconda2/envs/SIR/lib/python2.7/site-packages/
+
+  - paste all of the .py files under site-packages.
+
 (SIR) $ SIR enter
 
 
