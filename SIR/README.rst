@@ -16,7 +16,7 @@ $ conda create -n SIR python=2
 
 $ source activate SIR
 
-(SIR) $ conda install scipy numpy sympy matplotlib Click sys tkinter
+(SIR) $ conda install scipy numpy sympy matplotlib Click 
 
 (SIR) $ python setup.py install
 
