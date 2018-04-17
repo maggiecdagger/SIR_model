@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: SIR
+Version: 0.0.0
+Summary: SIR is an interface designed for the SIR model course plan of Girls Talk Math Camp at UNC Chapel Hill
+Home-page: UNKNOWN
+Author: Maggie P Cai
+Author-email: UNKNOWN
+License: GNU General Public License v3
+Description: UNKNOWN
+Keywords: SIR
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

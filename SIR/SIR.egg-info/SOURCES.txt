@@ -1,0 +1,8 @@
+setup.py
+SIR.egg-info/PKG-INFO
+SIR.egg-info/SOURCES.txt
+SIR.egg-info/dependency_links.txt
+SIR.egg-info/entry_points.txt
+SIR.egg-info/not-zip-safe
+SIR.egg-info/requires.txt
+SIR.egg-info/top_level.txt
