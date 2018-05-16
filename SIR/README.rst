@@ -10,7 +10,7 @@ Installation:
 
 $ git clone https://github.com/maggiecdagger/SIR_model.git
 
-$ cd SIR
+$ cd SIR_model
 
 $ conda create -n SIR python=2
 
