@@ -32,7 +32,7 @@ To open the interface:
 (SIR) $ open SIR
   - copy all three .py files
   
-(SIR) $ open /anaconda2/envs/SIR/lib/python2.7/site-packages/
+(SIR) $ open /anaconda2/lib/python2.7/site-packages/
 
   - paste the .py and .png files in this directory.
 
