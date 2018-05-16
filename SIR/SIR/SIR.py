@@ -34,6 +34,9 @@ import os
 import functions
 from functions import *
 
+import extension
+from extension import *
+
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 @click.group(context_settings=CONTEXT_SETTINGS)
 
@@ -42,11 +45,12 @@ def enter():
 
     '''
 top = Tk()
-top.geometry("300x500")
+top.geometry("300x600")
 top.title("SIR Model")
 top_textframe = Frame(top)
 
 buttonFont=tkFont.Font(family="Helvetica", size=18, weight="bold")
+buttonFont2 = tkFont.Font(family="Helvetica", size=12, weight="bold")
 labelFont=tkFont.Font(family="Helvetica", size=14, weight="bold")
 eqFont=tkFont.Font(family="Helvetica", size=20)
 
@@ -141,6 +145,9 @@ enter_button= Button(top, text="Enter",font=buttonFont, height=1, padx=1.5,pady=
 enter_button.pack(side=LEFT)
 enter_button.flash()
 
+Extension_button= Button(top, text="Beyond SIR",font=buttonFont2, height=2, padx=1.5,pady=1.5,width=16, command = extension.main)
+Extension_button.pack(side=LEFT)
+Extension_button.flash()
 
 canvas1 = Canvas(top)
 canvas1.create_text(85,80,text="System:"+"\n"+"  dS / dt = -α * S * I"+"\n"+"  dI / dt = α * S * I - β * I"+"\n"+"  dR / dt = β * I"+"\n"+"\n"+"  α: infection by contact"+"\n"+"  β: death by infection",font=labelFont,activefill='red',justify=LEFT)
@@ -152,6 +159,7 @@ removed_label.place(x=60,y=285)
 infection_entry.place(x=5,y=315)
 removed_entry.place(x=60,y=315)
 enter_button.place(x=5,y=440)
+Extension_button.place(x=5, y=490)
 S0_label.place(x=5,y=205)
 S0_entry.place(x=5,y=235)
 I0_label.place(x=60,y=205)
