@@ -10,26 +10,13 @@ Installation:
 
 $ git clone https://github.com/maggiecdagger/SIR_model.git
 
-$ cd SIR_Model
+$ cd SIR
 
 $ conda create -n SIR python=2
 
 $ source activate SIR
 
-(SIR) $ conda install scipy
-
-(SIR) $ conda install numpy
-
-(SIR) $ conda install sympy
-
-(SIR) $ conda install matplotlib
-
-(SIR) $ conda install Click
-
-(SIR) $ conda install sys
-
-(SIR) $ conda install tkinter
-
+(SIR) $ conda install scipy numpy sympy matplotlib Click Pillow
 
 (SIR) $ python setup.py install
 
@@ -40,6 +27,12 @@ Activation:
 
 
 To open the interface:
+
+* need to make sure .py files are correctly added to the virtual environment:
+
+(SIR) $ open /anaconda2/envs/SIR/lib/python2.7/site-packages/
+
+  - paste all of the .py files under site-packages.
 
 (SIR) $ SIR enter
 
