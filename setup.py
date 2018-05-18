@@ -22,7 +22,7 @@ setup(
 #    long_description=readme + '\n\n' + history,
     author="Maggie P Cai",
     packages=find_packages(),
-    package_dir={'SIR':
+    package_dir={'SIR_model':
                  'SIR'},
     py_modules=['SIR'],
     entry_points={
