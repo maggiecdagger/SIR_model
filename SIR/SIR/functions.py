@@ -153,7 +153,7 @@ def initial_conditions_entry(a,b,c,d,e,f): #extracts user inputs of infection an
 def solvr(X, t, infection_entry, removed_entry):
     S, I, R = X
     P=parameters_entry(infection_entry, removed_entry)
-    E = [-P[0]*S*I,P[0]*S*I-P[1]*I,P[1]*I]
+    E = [-P[0]/N*S*I,P[0]/N*S*I-P[1]*I,P[1]*I]
     return E
     #return [0.5*S-S*I*0.01,-0.5*I+S*I*0.01,0] y0=[80,100,0] a=0.5 b=0.01 t0=0 tf=50
 
