@@ -1,6 +1,10 @@
 ======
 SIR_Model
 ======
+Please go over to https://github.com/maggiecdagger/sirmodel.git instead. "SIR_model" is no longer being updated or maintained.
+
+
+
 
 Installation:
 
