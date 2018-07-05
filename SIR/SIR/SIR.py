@@ -150,7 +150,7 @@ Extension_button.pack(side=LEFT)
 Extension_button.flash()
 
 canvas1 = Canvas(top)
-canvas1.create_text(85,80,text="System:"+"\n"+"  dS / dt = -α * S * I"+"\n"+"  dI / dt = α * S * I - β * I"+"\n"+"  dR / dt = β * I"+"\n"+"\n"+"  α: infection by contact"+"\n"+"  β: death by infection",font=labelFont,activefill='red',justify=LEFT)
+canvas1.create_text(105,80,text="System:"+"\n"+"  dS / dt = -(α / N) * S * I"+"\n"+"  dI / dt = (α / N) * S * I - β * I"+"\n"+"  dR / dt = β * I"+"\n"+"\n"+"  α: infection by contact"+"\n"+"  β: death by infection"+"\n"+"  N: total population (=S+I+R)",font=labelFont,activefill='red',justify=LEFT)
 canvas1.create_text(105,185,text="Initial Conditions, Parameters:",font=labelFont,activefill='red',justify=LEFT)
 canvas1.pack()
 
