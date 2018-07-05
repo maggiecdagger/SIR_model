@@ -30,7 +30,7 @@ To open the interface:
 
 * need to make sure the .py and .png files are correctly added to the virtual environment:
 (SIR) $ open SIR/SIR
-  - copy all three .py files
+  - copy all .py and .png files
   
 (SIR) $ open /anaconda2/envs/SIR/lib/python2.7/site-packages
 
